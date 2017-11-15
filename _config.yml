@@ -1,16 +1,15 @@
-permalink: /:year:month:day/:title
-url: #Your url here
-baseurl:
+url: https://asantos07.github.io/
+baseurl: jekyll-theme-windows95/
 
 # variables
-name: Your Site Name
-description: Your description here
+name: Jekyll Win95 Theme
+description: Jekyll theme inpired on the Win95 UI
 google_verification: null
 
 
 # File management
 include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
+exclude: ["README.md", "LICENSE", "Gemfile", "Gemfile.lock", "jekyll-theme-windows95.gemspec"]
 
 # Sass
 sass:

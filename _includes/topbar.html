@@ -1,5 +1,7 @@
 <ul class="topbar">
     {% for service in site.data.social %}
-        <a class="social" href="{{ service.url }}" ><li>{{service.name}}</li></a>
+    <li>
+        <a href="{{ service.link }}">{{service.name}}</a>
+    </li>
     {% endfor %}
 </ul>
