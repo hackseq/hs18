@@ -95,6 +95,9 @@ ul.topbar {
 		text-decoration: none;
 		color: #000000;
 	}
+	li::first-letter {
+		text-decoration: underline;
+	}
 }
 .post_list, .tag_list, .post_content {
 	background: #fff8ff;
