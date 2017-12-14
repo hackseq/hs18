@@ -3,9 +3,12 @@ language: ruby
 env:
   global:
     - JEKYLL_ENV=production
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 deploy:
   provider: rubygems
   api_key: $API_KEY
   on:
     tags: true
+
+sudo: false
