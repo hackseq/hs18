@@ -5,7 +5,7 @@ env:
     - JEKYLL_ENV=production
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
-script:
+script: jekyll build
 
 deploy:
   provider: rubygems
