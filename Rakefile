@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'jekyll'
-require 'html-proofer'
 
 conf = Jekyll.configuration({
   'source'      => './',
