@@ -8,5 +8,3 @@ conf = Jekyll.configuration({
   'destination' => './_site/'
 })
 Jekyll::Site.new(conf).process
-
-HTMLProofer.check_directory("./_site").run

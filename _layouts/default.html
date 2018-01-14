@@ -9,7 +9,7 @@
     {% if page.title or page.title == 'me' %}
         <title>{{ page.title }}</title>
     {% else %}
-        <title>{{ site.name }}</title>
+        <title>{{ site.title }}</title>
     {% endif %}
 	<link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | relative_url }}">
 	<link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" type="image/x-icon">
@@ -28,7 +28,7 @@
 			{% if page.tag %}
 				<h1>{{ page.tag }}</h1>
 			{% else %}
-				<h1>{{ site.name }}</h1>
+				<h1>{{ site.title }}</h1>
 			{% endif %}
 		</div>
 		{% include topbar.html %}
