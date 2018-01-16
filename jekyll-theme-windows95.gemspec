@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   }
 
   spec.files         = `git ls-files -z`.split("\x0").select do |f|
-    f.match(%r{^(assets|_layouts|_includes|_sass|_data|tags|LICENSE|README|.html)}i)
+    f.match(%r{^(assets|_layouts|_includes|_sass|tags/all.html|LICENSE|README|404.html)}i)
   end
   
   spec.required_ruby_version = ">= 2.1.0"

@@ -47,27 +47,29 @@
 				{% if page.title == '404...' %}
 					<ul>
 						{% for post in site.posts %}
-							<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
+							<li><a href="{{  post.url | relative_url }}" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
 						{% endfor %}
 					</ul>
-				{% else %}
+				{% elsif page.intro %} <!-- If at root, rendering index.md -->
 					<div class="intro">
 						{{ content }}
 					</div>
+				 {% else %} <!-- If page is showing a tag -->
+					{{ content }}
 				{% endif %}
-			{% else %}
+			{% else %} <!-- If page is showing a post -->
 				<ul>
 					{% for post in site.posts %}
-					<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
+					<li><a href="{{  post.url | relative_url }}" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
 					{% endfor %}
 				</ul>
 			{% endunless %}
 		</div>
 		<div class="post_total">
 			{% if page.tag %}
-				<div class="left">{{ site.tags[page.tag] | size }} object(s)</div>
+				<div class="left">{{ site.tags[page.tag] | size }} post(s)</div>
 			{% else %}
-				<div class="left">{{ site.posts | size }} object(s)</div>
+				<div class="left">{{ site.posts | size }} post(s)</div>
 			{% endif %}
 			<div class="right">&nbsp;</div>
 		</div>

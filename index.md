@@ -1,5 +1,6 @@
 ---
 layout: default
+intro: true
 ---
 # Aquis sed quam Heliadum pictis pater miracula
 
