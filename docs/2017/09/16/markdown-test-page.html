@@ -16,7 +16,7 @@
 	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
-	<div class="wrapper window">
+	<div class="window" id="wrapper">
 		<div class="window_title">
 			<img src="/jekyll-theme-windows95/assets/img/mycomputer.png" />
 			
@@ -41,43 +41,45 @@
 		<div class="tag_list">
 			<ul id="tag-list">
 				<li>
-					<a href="/jekyll-theme-windows95//" ><img src="/jekyll-theme-windows95/assets/img/disk.png" />(C:)</a>
+					<a href="/jekyll-theme-windows95/" ><img src="/jekyll-theme-windows95/assets/img/disk.png" />(C:)</a>
 					<ul>
 						
 						
-							<li><a href="/jekyll-theme-windows95//tag/society/" title="society"><img src="/jekyll-theme-windows95/assets/img/folder.ico" />society</a></li>
+							<li><a href="/jekyll-theme-windows95/tag/society/" title="society"><img src="/jekyll-theme-windows95/assets/img/folder.ico" />society</a></li>
 						
-							<li><a href="/jekyll-theme-windows95//tag/tech/" title="tech"><img src="/jekyll-theme-windows95/assets/img/folder.ico" />tech</a></li>
+							<li><a href="/jekyll-theme-windows95/tag/tech/" title="tech"><img src="/jekyll-theme-windows95/assets/img/folder.ico" />tech</a></li>
 						
 					</ul>
-					<a href="/jekyll-theme-windows95//all" ><img src="/jekyll-theme-windows95/assets/img/briefcase.png" />All</a>					
+					<a href="/jekyll-theme-windows95/all" ><img src="/jekyll-theme-windows95/assets/img/briefcase.png" />All</a>					
 				</li>
 			</ul>
 		</div>
+		
 		<div class="post_list">
-			
+			 <!-- If page is showing a post -->
 				<ul>
 					
-					<li><a href="/2017/09/16/markdown-test-page.html" title="Markdown Test Page"><img src="/jekyll-theme-windows95/assets/img/file.ico" title="Markdown Test Page" />Markdown Test Page</a></li>
+					<li><a href="/jekyll-theme-windows95/2017/09/16/markdown-test-page.html#content" title="Markdown Test Page"><img src="/jekyll-theme-windows95/assets/img/file.ico" title="Markdown Test Page" />Markdown Test Page</a></li>
 					
-					<li><a href="/2017/08/31/lorem-ipsum.html" title="Lorem Ipsum"><img src="/jekyll-theme-windows95/assets/img/file.ico" title="Lorem Ipsum" />Lorem Ipsum</a></li>
+					<li><a href="/jekyll-theme-windows95/2017/08/31/lorem-ipsum.html#content" title="Lorem Ipsum"><img src="/jekyll-theme-windows95/assets/img/file.ico" title="Lorem Ipsum" />Lorem Ipsum</a></li>
 					
 				</ul>
 			
 		</div>
+		
 		<div class="post_total">
 			
-				<div class="left">2 object(s)</div>
+				<div class="left">2 post(s)</div>
 			
 			<div class="right">&nbsp;</div>
 		</div>
 	</div>
 	
-        <div class="content window">
+        <div class="window" id="content">
 			<div class="window_title">
 				<img src="/jekyll-theme-windows95/assets/img/file.png" />
 				<h1>Markdown Test Page</h1>
-				<a href="/jekyll-theme-windows95//"><div class="btn"><span class="fa fa-times"></span></div></a>
+				<a href="/jekyll-theme-windows95/"><div class="btn"><span class="fa fa-times"></span></div></a>
 				<div class="btn btn_max"><span class="fa fa-window-maximize"></span></div>
 				<div class="btn"><span class="fa fa-window-minimize"></span></div>
 			</div>
@@ -273,28 +275,28 @@
 
 <h2 id="inline-code">Inline code</h2>
 
-<p>Ad amet irure est magna id mollit Lorem in do duis enim. Excepteur velit nisi magna ea pariatur pariatur ullamco fugiat deserunt sint non sint. Duis duis est <code>code in text</code> velit velit aute culpa ex quis pariatur pariatur laborum aute pariatur duis tempor sunt ad. Irure magna voluptate dolore consectetur consectetur irure esse. Anim magna <code>&lt;strong&gt;in culpa qui officia&lt;/strong&gt;</code> dolor eiusmod esse amet aute cupidatat aliqua do id voluptate cupidatat reprehenderit amet labore deserunt.</p>
+<p>Ad amet irure est magna id mollit Lorem in do duis enim. Excepteur velit nisi magna ea pariatur pariatur ullamco fugiat deserunt sint non sint. Duis duis est <code class="highlighter-rouge">code in text</code> velit velit aute culpa ex quis pariatur pariatur laborum aute pariatur duis tempor sunt ad. Irure magna voluptate dolore consectetur consectetur irure esse. Anim magna <code class="highlighter-rouge">&lt;strong&gt;in culpa qui officia&lt;/strong&gt;</code> dolor eiusmod esse amet aute cupidatat aliqua do id voluptate cupidatat reprehenderit amet labore deserunt.</p>
 
 <h2 id="highlighted">Highlighted</h2>
 
 <p>Et fugiat ad nisi amet magna labore do cillum fugiat occaecat cillum Lorem proident. In sint dolor ullamco ad do adipisicing amet id excepteur Lorem aliquip sit irure veniam laborum duis cillum. Aliqua occaecat minim cillum deserunt magna sunt laboris do do irure ea nostrud consequat ut voluptate ex.</p>
 
-<pre><code class="language-go">package main
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span><span class="x"> </span><span class="n">main</span><span class="x">
 
-import (
-    "fmt"
-    "net/http"
-)
+</span><span class="k">import</span><span class="x"> </span><span class="p">(</span><span class="x">
+    </span><span class="s">"fmt"</span><span class="x">
+    </span><span class="s">"net/http"</span><span class="x">
+</span><span class="p">)</span><span class="x">
 
-func handler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:])
-}
+</span><span class="k">func</span><span class="x"> </span><span class="n">handler</span><span class="p">(</span><span class="n">w</span><span class="x"> </span><span class="n">http</span><span class="o">.</span><span class="n">ResponseWriter</span><span class="p">,</span><span class="x"> </span><span class="n">r</span><span class="x"> </span><span class="o">*</span><span class="n">http</span><span class="o">.</span><span class="n">Request</span><span class="p">)</span><span class="x"> </span><span class="p">{</span><span class="x">
+    </span><span class="n">fmt</span><span class="o">.</span><span class="n">Fprintf</span><span class="p">(</span><span class="n">w</span><span class="p">,</span><span class="x"> </span><span class="s">"Hi there, I love %s!"</span><span class="p">,</span><span class="x"> </span><span class="n">r</span><span class="o">.</span><span class="n">URL</span><span class="o">.</span><span class="n">Path</span><span class="p">[</span><span class="m">1</span><span class="o">:</span><span class="p">])</span><span class="x">
+</span><span class="p">}</span><span class="x">
 
-func main() {
-    http.HandleFunc("/", handler)
-    http.ListenAndServe(":8080", nil)
-}
-</code></pre>
+</span><span class="k">func</span><span class="x"> </span><span class="n">main</span><span class="p">()</span><span class="x"> </span><span class="p">{</span><span class="x">
+    </span><span class="n">http</span><span class="o">.</span><span class="n">HandleFunc</span><span class="p">(</span><span class="s">"/"</span><span class="p">,</span><span class="x"> </span><span class="n">handler</span><span class="p">)</span><span class="x">
+    </span><span class="n">http</span><span class="o">.</span><span class="n">ListenAndServe</span><span class="p">(</span><span class="s">":8080"</span><span class="p">,</span><span class="x"> </span><span class="no">nil</span><span class="p">)</span><span class="x">
+</span><span class="p">}</span><span class="x">
+</span></code></pre></div></div>
 
 <p>Ex amet id ex aliquip id do laborum excepteur exercitation elit sint commodo occaecat nostrud est. Nostrud pariatur esse veniam laborum non sint magna sit laboris minim in id. Aliqua pariatur pariatur excepteur adipisicing irure culpa consequat commodo et ex id ad.</p>
 
@@ -306,7 +308,7 @@ func main() {
 
 <p><img src="http://placekitten.com/1280/800" alt="Super wide" /></p>
 
-<p><em>Proident sit veniam in est proident officia adipisicing</em> ea tempor cillum non cillum velit deserunt. Voluptate laborum incididunt sit consectetur Lorem irure incididunt voluptate nostrud. Commodo ut eiusmod tempor cupidatat esse enim minim ex anim consequat. Mollit sint culpa qui laboris quis consectetur ad sint esse. Amet anim anim minim ullamco et duis non irure. Sit tempor adipisicing ea laboris <code>culpa ex duis sint</code> anim aute reprehenderit id eu ea. Aute <a href="#!">excepteur proident</a> Lorem minim adipisicing nostrud mollit ad ut voluptate do nulla esse occaecat aliqua sint anim.</p>
+<p><em>Proident sit veniam in est proident officia adipisicing</em> ea tempor cillum non cillum velit deserunt. Voluptate laborum incididunt sit consectetur Lorem irure incididunt voluptate nostrud. Commodo ut eiusmod tempor cupidatat esse enim minim ex anim consequat. Mollit sint culpa qui laboris quis consectetur ad sint esse. Amet anim anim minim ullamco et duis non irure. Sit tempor adipisicing ea laboris <code class="highlighter-rouge">culpa ex duis sint</code> anim aute reprehenderit id eu ea. Aute <a href="#!">excepteur proident</a> Lorem minim adipisicing nostrud mollit ad ut voluptate do nulla esse occaecat aliqua sint anim.</p>
 
 <p><img src="http://placekitten.com/480/400" alt="Not so big" /></p>
 

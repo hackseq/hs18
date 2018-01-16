@@ -15,8 +15,6 @@ sass:
   sass_dir: _sass
 
 # Markdown
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    disable : true
+# markdown:    kramdown
+# highlighter: rouge
+# excerpt_separator: "\n\n"

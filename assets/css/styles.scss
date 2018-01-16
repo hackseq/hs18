@@ -1,7 +1,7 @@
 ---
 # this ensures Jekyll reads the file to be transformed into CSS later
 ---
-
+@import "variables";
 @import "reset";
 @import "window";
 @import "topbar";
@@ -13,17 +13,7 @@ body {
 	font-size: 13px;
 }
 
-.wrapper, .content {
-	width: 800px;
-	margin: auto;
-	margin-top: 20px;
-	background: #bfb8bf;
-	border: 2px solid;
-	border-color: #fff8ff #000000 #000000 #fff8ff;
-	padding: 2px 0;
-}
-
-.post_list, .tag_list, .post_content {
+.post_list, .tag_list, .post_content, .intro {
 	background: #fff8ff;
 	border-width: 2px;
 	border-style: ridge groove groove ridge;
@@ -32,8 +22,8 @@ body {
 .tag_list {
 	width: 28%;
 	margin: 0 auto;
-	min-height: 150px;
-	max-height: 150px;
+	min-height: $windowHeight;
+	max-height: $windowHeight;
 	overflow-y: scroll;
 	display: inline-block;
 
@@ -88,100 +78,7 @@ body {
 		margin-right: 2px;
 	}
 }
-.post_content {
-	position: relative;
-	width: 98.5%;
-	min-height: 600px;
-	max-height: 600px;
-	padding: 2px;
-	margin: 0 auto;
-	overflow-y: scroll;
-	// overflow-x: scroll;
 
-	p {
-		line-height: 150%;
-		margin-bottom: 15px;
-	}
-
-	a {
-		color: #0000ff;
-		margin-bottom: 15px;
-	}
-
-	h1 {
-		font-size: 20px;
-		font-weight: 700;
-		margin: 50px 0 10px 0;
-	}
-
-	h2 {
-		font-size: 18px;
-		font-weight: 700;
-		margin: 25px 0 5px 0;
-	}
-
-	em {
-		font-style: italic;
-	}
-
-	blockquote {
-		padding: 0 0 0 15px;
-		margin: 15px 5px;
-		border-left: 8px solid #000000;
-	}
-
-	strong {
-		font-weight: 700;
-	}
-
-	hr {
-		border-top: 3px solid #333333;
-		border-left: 0;
-	}
-
-	ul {
-		list-style: square;
-		margin: 0 0 15px 30px;
-
-		li {
-			padding: 5px;
-
-			ul {
-				margin: 10px 0 0 15px;
-
-				li {
-					padding: 5px;
-				}
-			}
-		}
-	}
-
-	ol {
-		list-style: decimal-leading-zero;
-		margin: 0 0 15px 30px;
-
-		li {
-			padding: 5px;
-
-			ul {
-				margin: 10px 0 0 15px;
-
-				li {
-					padding: 5px;
-				}
-			}
-		}
-	}
-
-	table, th, td {
-		border: 1px solid #222222;
-		padding: 2px;
-	}
-
-	pre {
-		margin-bottom: 15px;
-	}
-}
 .hljs {
 	background: #fff8ff;
 }
@@ -198,12 +95,12 @@ body {
 	}
 }
 @media only screen and (max-width: 900px) {
-    .content {
+    #content {
         width: 90%;
     }
 }
 @media only screen and (max-width: 700px) {
-    .content {
+    #content {
         width: 90%;
     }
 	.post_content {
@@ -216,7 +113,7 @@ body {
 	}
 }
 @media only screen and (max-width: 810px) {
-	.wrapper {
+	#wrapper {
 		width: 90%;
 	}
 	.post_total {
@@ -233,7 +130,7 @@ body {
 	.tag_list {
 		width: 99%;
 	}
-	.post_list {
+	.post_list, .intro {
 		width: 99%;
 		float: left;
 	}
@@ -251,7 +148,7 @@ body {
 	.tag_list {
 		width: 98.7%;
 	}
-	.post_list {
+	.post_list, .intro {
 		width: 98.7%;
 		float: left;
 	}

@@ -2,21 +2,24 @@
 layout: default
 intro: true
 ---
-# Aquis sed quam Heliadum pictis pater miracula
+# jekyll-theme-windows95
+---
+This is a [Jekyll](https://jekyllrb.com/) theme inpired on the oldschool Windows 95 UI.
 
-## Tota olorinis
-
-Lorem markdownum fila: admoneo primo. Dea toto amabam de si utilis quoque
-sacrasque sepulcrum globos numquam sed.
-
-## Tenebat ut sacris inque poenas
-
-Per est corpora adsensit tu et Lyncus thalamos ferunt Veneri? Sua cumque,
-adspergit e spemque parentis manibus et atque victus dat. Clarissima [animae
-furialibus incerti](#aliorum), pavet tamquam, orbi dum vim percusserat ramum. Et
-ferae somnia et Circes pennis.
-
-- Et potest vitiumque formae
-- Clarum sine aethere non velocia nondum tibi
-- Per cuiquam quae
-- Habet ut dubitas niveo est quae occurrunt
+## Usage
+* Create an index.(html|md) file with this front matter:
+   ```
+   ---
+   layout: default
+   intro: true
+   ---
+   ```
+* For every tag you want to use, create a HTML file in /tags, following this template:
+   ```
+   ---
+   layout: tag
+   tag: [tag name]
+   permalink: /tag/[name in url slug form]/
+   ---
+   ```
+   You can then use it on your YAML front matter in your posts.

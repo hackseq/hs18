@@ -1,8 +1,8 @@
 .post_list {
     width: 70.2%;
     margin: 0 auto;
-    min-height: 150px;
-    max-height: 150px;
+    min-height: $windowHeight;
+    max-height: $windowHeight;
     overflow-y: scroll;
     display: inline-block;
     ul {
@@ -10,7 +10,7 @@
         li {
             display: inline-block;
             margin: 10px;
-            max-width: 16ch;
+            max-width: 12em;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -28,28 +28,39 @@
     }
 }
 
-.post_list>.intro {
-    margin: 4px 2px 2px 2px;
+.intro {
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 4px;
+    min-height: $windowHeight;
+    max-height: $windowHeight;
+
+    overflow-y: scroll;
     overflow-wrap: break-word;
+    overflow-x: hidden;
+    white-space: pre-wrap;
+
+    display: inline-block;
+    
     a {
         color: #0000ff;
     }
     h1 {
         font-size: 20px;
         font-weight: 700;
-        margin: 5px 0 5px 0;
+        margin: 12px 0 8px 0;
     }
     h2 {
         font-size: 18px;
         font-weight: 700;
-        margin: 25px 0 5px 0;
+        margin: 12px 0 6px 0;
     }
     em {
         font-style: italic;
     }
     blockquote {
         padding: 0 0 0 15px;
-        margin: 15px 5px;
+        margin: 5px 5px;
         border-left: 8px solid #000000;
     }
     strong {
@@ -60,37 +71,38 @@
         border-left: 0;
     }
     ul {
-        margin: 0 0 15px 30px;
+        list-style: square;
+        margin: 0 0 10px 15px;
         li {
-            padding: 5px;
+            white-space: normal;
+            text-align: left;
+            margin: 3px 0;
             ul {
-                margin: 10px 0 0 15px;
                 li {
-                    padding: 5px;
                 }
             }
         }
     }
     ol {
-        list-style: decimal-leading-zero;
-        margin: 0 0 15px 30px;
+        // list-style: decimal-leading-zero;
+        // margin: 0 0 15px 30px;
         li {
-            padding: 5px;
+            // padding: 5px;
             ul {
-                margin: 10px 0 0 15px;
+                // margin: 10px 0 0 15px;
                 li {
-                    padding: 5px;
+                    // padding: 5px;
                 }
             }
         }
     }
-    table,
-    th,
-    td {
-        border: 1px solid #222222;
-        padding: 2px;
-    }
-    pre {
-        margin-bottom: 15px;
-    }
+    // table,
+    // th,
+    // td {
+    //     // border: 1px solid #222222;
+    //     // padding: 2px;
+    // }
+    // pre {
+    //     // margin-bottom: 15px;
+    // }
 }

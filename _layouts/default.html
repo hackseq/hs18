@@ -18,7 +18,7 @@
 	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
-	<div class="wrapper window">
+	<div class="window" id="wrapper">
 		<div class="window_title">
 			<img src="{{ "/assets/img/mycomputer.png" | relative_url }}" />
 			{% if page.tag %}
@@ -42,29 +42,31 @@
 				</li>
 			</ul>
 		</div>
+		{% if page.intro %} <!-- If at root, rendering index.md -->
+			<div class="intro">
+				{{ content }}
+			</div>
+		{% else %}
 		<div class="post_list">
 			{% unless page.date %}
 				{% if page.title == '404...' %}
 					<ul>
 						{% for post in site.posts %}
-							<li><a href="{{  post.url | relative_url }}" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
+							<li><a href="{{  post.url | relative_url }}#content" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
 						{% endfor %}
 					</ul>
-				{% elsif page.intro %} <!-- If at root, rendering index.md -->
-					<div class="intro">
-						{{ content }}
-					</div>
 				 {% else %} <!-- If page is showing a tag -->
 					{{ content }}
 				{% endif %}
 			{% else %} <!-- If page is showing a post -->
 				<ul>
 					{% for post in site.posts %}
-					<li><a href="{{  post.url | relative_url }}" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
+					<li><a href="{{  post.url | relative_url }}#content" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
 					{% endfor %}
 				</ul>
 			{% endunless %}
 		</div>
+		{% endif %}
 		<div class="post_total">
 			{% if page.tag %}
 				<div class="left">{{ site.tags[page.tag] | size }} post(s)</div>
@@ -75,7 +77,7 @@
 		</div>
 	</div>
 	{% if page.title %}
-        <div class="content window">
+        <div class="window" id="content">
 			<div class="window_title">
 				<img src="{{ "/assets/img/file.png" | relative_url }}" />
 				<h1>{{  page.title  }}</h1>

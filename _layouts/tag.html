@@ -4,7 +4,7 @@ layout: default
 <ul>
 	{% for post in site.tags[page.tag] %}
 	<li>
-		<a href="{{  post.url | relative_url }}" title="{{ post.title }}">
+		<a href="{{  post.url | relative_url }}#content" title="{{ post.title }}">
 			<img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a>
 	</li>
 	{% endfor %}
