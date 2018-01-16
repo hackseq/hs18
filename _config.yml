@@ -1,12 +1,9 @@
-url: https://asantos07.github.io/
-baseurl: jekyll-theme-windows95
+url: https://asantos07.github.io
+baseurl: /jekyll-theme-windows95/
 
 # variables
 title: Jekyll Win95 Theme
 description: Jekyll theme inpired on the Win95 UI
-
-email: your-email@example.com
-
 
 # File management
 include: [".htaccess"]

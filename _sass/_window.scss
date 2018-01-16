@@ -1,0 +1,61 @@
+.window>.window_title {
+	background: #808080;
+}
+
+.window:hover>.window_title {
+	background: #00007f;
+}
+
+.window_title {
+	padding: 3px 4px 3px 4px;
+	position: relative;
+	h1 {
+		color: #bfb8bf;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	img {
+		float: left;
+		width: 14px;
+		height: 14px;
+		margin: 0 4px 0 0;
+	}
+}
+
+.content>.window_title {
+	h1 {
+		display: inline-block;
+	}
+	a {
+		color: #000000;
+	}
+	.btn {
+		background: #cccccc;
+		width: 13px;
+		height: 11px;
+		float: right;
+		border: 2px solid;
+		border-color: #fff8ff #000000 #000000 #fff8ff;
+		span {
+			font-size: 11px;
+			position: relative;
+			left: 2px;
+			top: -2px;
+		}
+		.fa-window-minimize {
+			font-size: 10px;
+			left: 1px;
+		}
+		.fa-window-maximize {
+			font-size: 10px;
+			left: 1px;
+		}
+	}
+	.btn_max {
+		margin: 0 3px 0 0;
+	}
+	.btn:active {
+		width: 12px;
+		height: 10px;
+	}
+}

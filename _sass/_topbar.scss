@@ -1,0 +1,16 @@
+ul.topbar {
+    list-style: none;
+    padding: 0 5px;
+    margin: 3px 0 3px 0;
+    li {
+        display: inline-block;
+        margin: 0 10px 0 0;
+    }
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+    li::first-letter {
+        text-decoration: underline;
+    }
+}

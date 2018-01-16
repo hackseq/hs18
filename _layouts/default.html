@@ -18,15 +18,11 @@
 	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
-	<div class="wrapper">
-		{% if page.title or page.title == 'me' %}
-			<div class="page_title">
-		{% else %}
-			<div class="default_title">
-		{% endif %}
+	<div class="wrapper window">
+		<div class="window_title">
 			<img src="{{ "/assets/img/mycomputer.png" | relative_url }}" />
 			{% if page.tag %}
-				<h1>{{ page.tag }}</h1>
+				<h1>{{ site.title }} - {{ page.tag }}</h1>
 			{% else %}
 				<h1>{{ site.title }}</h1>
 			{% endif %}
@@ -34,26 +30,30 @@
 		{% include topbar.html %}
 		<div class="tag_list">
 			<ul id="tag-list">
-				<li><a href="/" ><img src="{{ "/assets/img/disk.png" | relative_url }}" />(C:)</a>
-			<ul>
-				{% assign tags = site.tags | sort %}
-				{% for tag in tags %}
-				<li><a href="{{ site.baseurl }}/tag/{{ tag | first | slugify }}/" title="{{ tag[0] | replace:'-', ' ' }}"><img src="{{ "/assets/img/folder.ico" | relative_url }}" />{{ tag[0] | replace:'-', ' ' }}</a></li>
-				{% endfor %}
-			</ul>
+				<li>
+					<a href="{{ site.baseurl }}/" ><img src="{{ "/assets/img/disk.png" | relative_url }}" />(C:)</a>
+					<ul>
+						{% assign tags = site.tags | sort %}
+						{% for tag in tags %}
+							<li><a href="{{ site.baseurl }}/tag/{{ tag | first | slugify }}/" title="{{ tag[0] | replace:'-', ' ' }}"><img src="{{ "/assets/img/folder.ico" | relative_url }}" />{{ tag[0] | replace:'-', ' ' }}</a></li>
+						{% endfor %}
+					</ul>
+					<a href="{{ site.baseurl }}/all" ><img src="{{ "/assets/img/briefcase.png" | relative_url }}" />All</a>					
 				</li>
 			</ul>
 		</div>
 		<div class="post_list">
-			{% unless page.date%}
-				{% if page.title == 'me' or page.title == '404...' %}
+			{% unless page.date %}
+				{% if page.title == '404...' %}
 					<ul>
 						{% for post in site.posts %}
-						<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
+							<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
 						{% endfor %}
 					</ul>
 				{% else %}
-					{{ content }}
+					<div class="intro">
+						{{ content }}
+					</div>
 				{% endif %}
 			{% else %}
 				<ul>
@@ -73,11 +73,11 @@
 		</div>
 	</div>
 	{% if page.title %}
-        <div class="content">
-			<div class="post_title">
+        <div class="content window">
+			<div class="window_title">
 				<img src="{{ "/assets/img/file.png" | relative_url }}" />
 				<h1>{{  page.title  }}</h1>
-				<a href="/"><div class="btn"><span class="fa fa-times"></span></div></a>
+				<a href="{{ site.baseurl }}/"><div class="btn"><span class="fa fa-times"></span></div></a>
 				<div class="btn btn_max"><span class="fa fa-window-maximize"></span></div>
 				<div class="btn"><span class="fa fa-window-minimize"></span></div>
 			</div>

@@ -3,8 +3,9 @@
 ---
 
 @import "reset";
-@import "post";
-@import "site";
+@import "window";
+@import "topbar";
+@import "postlist";
 
 body {
 	background: #008082;
@@ -21,122 +22,12 @@ body {
 	border-color: #fff8ff #000000 #000000 #fff8ff;
 	padding: 2px 0;
 }
-.default_title, .post_title {
-	padding: 2px 4px 3px 4px;
-	position: relative;
 
-	h1 {
-		color: #bfb8bf;
-		font-size: 14px;
-		font-weight: bold;
-	}
-	
-	img {
-		float: left;
-		width: 14px;
-		height: 14px;
-		margin: 0 3px 0 0;
-	}
-}
-.post_title {
-	h1 {
-		display: inline-block;
-	}
-
-	a {
-		color: #000000;
-	}
-
-	.btn {
-		background: #cccccc;
-		width: 13px;
-		height: 11px;
-		float: right;
-		border: 2px solid;
-		border-color: #fff8ff #000000 #000000 #fff8ff;
-
-		span {
-			font-size: 11px;
-			position: relative;
-			left: 2px;
-			top: -2px;
-		}
-
-		.fa-window-minimize {
-			font-size: 10px;
-			left: 1px;
-		}
-
-		.fa-window-maximize {
-			font-size: 10px;
-			left: 1px;
-		}
-	}
-
-	.btn_max {
-		margin: 0 3px 0 0;
-	}
-
-	.btn:active {
-		width: 12px;
-		height: 10px;
-	}
-}
-ul.topbar {
-	list-style: none;
-	padding: 0 10px;
-	margin: 3px 0 3px 0;
-
-	li {
-		display: inline-block;
-		margin: 0 5px 0 0;
-	}
-	a {
-		text-decoration: none;
-		color: #000000;
-	}
-	li::first-letter {
-		text-decoration: underline;
-	}
-}
 .post_list, .tag_list, .post_content {
 	background: #fff8ff;
 	border-width: 2px;
 	border-style: ridge groove groove ridge;
 	border-color: #7f787f #fff8ff #fff8ff #7f787f;
-}
-.post_list {
-	width: 70.2%;
-	margin: 0 auto;
-	min-height: 150px;
-	max-height: 150px;
-	overflow-y: scroll;
-	display: inline-block;
-
-	ul {
-		list-style: none;
-
-		li {
-			display: inline-block;
-			margin: 10px;
-			max-width: 16ch;
-			overflow: hidden;
-			text-overflow: ellipsis;
-			white-space: nowrap;
-			text-align: center;
-
-			img {
-				display: block;
-				margin: 0 auto;
-				margin-bottom: 8px;
-			}
-
-			a {
-				text-decoration: none;
-				color: #000000;
-			}
-		}
-	}
 }
 .tag_list {
 	width: 28%;
@@ -205,7 +96,7 @@ ul.topbar {
 	padding: 2px;
 	margin: 0 auto;
 	overflow-y: scroll;
-	overflow-x: scroll;
+	// overflow-x: scroll;
 
 	p {
 		line-height: 150%;
@@ -304,15 +195,6 @@ ul.topbar {
 		a {
 			color: #24244a;
 		}
-	}
-}
-.donate {
-	float: right;
-	padding: 0 3px 0 0;
-
-	p {
-		text-align: right;
-		word-break: break-word;
 	}
 }
 @media only screen and (max-width: 900px) {
