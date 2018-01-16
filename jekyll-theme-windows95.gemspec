@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-windows95"
-  spec.version       = "0.4.2"
+  spec.version       = "0.4.3"
   spec.authors       = ["Ariel Santos"]
   spec.email         = ["as-ariel@outlook.com"]
 
@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   }
 
   spec.files         = `git ls-files -z`.split("\x0").select do |f|
-    f.match(%r{^(assets|_layouts|_includes|_sass|tags/all.html|LICENSE|README|404.html)}i)
+    f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i)
   end
   
   spec.required_ruby_version = ">= 2.1.0"
