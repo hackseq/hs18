@@ -4,6 +4,6 @@
 
 ### Homepage (demo): [Jekyll Theme Windows 95](https://asantos07.github.io/jekyll-theme-windows95/)
 
-## For a documentation on how to use this theme, see the live demo.
+## For documentation on how to use this theme, see the live demo.
 
 ### Author: [Ariel Santos](https://github.com/asantos07), forked from [h01000110 (hi)](https://github.com/h01000110)
