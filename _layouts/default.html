@@ -49,15 +49,15 @@
 		{% else %}
 		<div class="post_list">
 			{% unless page.date %}
-				{% if page.title == '404...' %}
+				{% unless page.tag %}
 					<ul>
 						{% for post in site.posts %}
 							<li><a href="{{  post.url | relative_url }}#content" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
 						{% endfor %}
 					</ul>
-				 {% else %} <!-- If page is showing a tag -->
+				{% else %} <!-- If page is showing a tag -->
 					{{ content }}
-				{% endif %}
+				{% endunless %}
 			{% else %} <!-- If page is showing a post -->
 				<ul>
 					{% for post in site.posts %}

@@ -63,22 +63,34 @@
 <h2 id="usage">Usage</h2>
 <ul>
   <li>Create an index.(html|md) file with this front matter:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ---
- layout: default
- intro: true
- ---
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="s">---</span>
+ <span class="s">layout</span><span class="pi">:</span> <span class="s">default</span>
+ <span class="na">intro</span><span class="pi">:</span> <span class="no">true</span>
+ <span class="s">---</span>
 </code></pre></div>    </div>
+    <p>Place your bio/intro/summary here.</p>
   </li>
   <li>For every tag you want to use, create a HTML file in /tags, following this template:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ---
- layout: tag
- tag: [tag name]
- permalink: /tag/[name in url slug form]/
- ---
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="s">---</span>
+ <span class="s">layout</span><span class="pi">:</span> <span class="s">tag</span>
+ <span class="na">tag</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">tag name</span><span class="pi">]</span>
+ <span class="na">permalink</span><span class="pi">:</span> <span class="s">/tag/[name in url slug form]/</span>
+ <span class="s">---</span>
 </code></pre></div>    </div>
     <p>You can then use it on your YAML front matter in your posts.</p>
   </li>
+  <li>Create another HTML tag file, but this time with this content:
+    <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="s">---</span>
+ <span class="s">layout</span><span class="pi">:</span> <span class="s">all</span>
+ <span class="na">tag</span><span class="pi">:</span> 
+ <span class="na">permalink</span><span class="pi">:</span> <span class="s">/all/</span>
+ <span class="s">---</span>
+</code></pre></div>    </div>
+    <p>This creates a link to show all posts, ungrouped.</p>
+  </li>
 </ul>
+
+<p><strong>All done! Now you can use Jekyll just like you would with any other theme.</strong></p>
 
 			</div>
 		

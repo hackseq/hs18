@@ -8,14 +8,15 @@ This is a [Jekyll](https://jekyllrb.com/) theme inpired on the oldschool Windows
 
 ## Usage
 * Create an index.(html|md) file with this front matter:
-   ```
+   ```yaml
    ---
    layout: default
    intro: true
    ---
    ```
+   Place your bio/intro/summary here.
 * For every tag you want to use, create a HTML file in /tags, following this template:
-   ```
+   ```yaml
    ---
    layout: tag
    tag: [tag name]
@@ -23,3 +24,14 @@ This is a [Jekyll](https://jekyllrb.com/) theme inpired on the oldschool Windows
    ---
    ```
    You can then use it on your YAML front matter in your posts.
+* Create another HTML tag file, but this time with this content:
+   ```yaml
+   ---
+   layout: all
+   tag: 
+   permalink: /all/
+   ---
+   ```
+   This creates a link to show all posts, ungrouped.
+   
+**All done! Now you can use Jekyll just like you would with any other theme.**
