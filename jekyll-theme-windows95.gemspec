@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-windows95"
-  spec.version       = "0.4.4"
+  spec.version       = "0.5.0"
   spec.authors       = ["Ariel Santos"]
   spec.email         = ["as-ariel@outlook.com"]
 
@@ -22,6 +22,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 2.1.0"
 
   spec.add_runtime_dependency "jekyll", "~> 3.7"
+  spec.add_runtime_dependency "rouge", "~> 3.1"  
 
   spec.add_development_dependency "bundler", "~> 1.12"
   

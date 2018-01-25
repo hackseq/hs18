@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link rel="stylesheet" href="{{ "/assets/css/atom-one-light.css" | relative_url }}">
-	<link rel="stylesheet" type="text/css" href="{{ "/assets/css/styles.css" | relative_url }}">	
+	<link rel="stylesheet" type="text/css" href="{{ "/assets/css/styles.css" | relative_url }}">
+	<link rel="stylesheet" type="text/css" href="{{ "/assets/css/syntax.css" | relative_url }}">			
     {% if page.title or page.title == 'me' %}
         <title>{{ page.title }}</title>
     {% else %}
@@ -14,8 +14,6 @@
 	<link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | relative_url }}">
 	<link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" type="image/x-icon">
 	<link rel="icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" type="image/x-icon">
-	<script src="{{ "/assets/js/highlight.pack.js" | relative_url }}"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 	<div class="window" id="wrapper">
@@ -82,8 +80,8 @@
 				<img src="{{ "/assets/img/file.png" | relative_url }}" />
 				<h1>{{  page.title  }}</h1>
 				<a href="{{ site.baseurl }}/"><div class="btn"><span class="fa fa-times"></span></div></a>
-				<div class="btn btn_max"><span class="fa fa-window-maximize"></span></div>
-				<div class="btn"><span class="fa fa-window-minimize"></span></div>
+				<div class="btn btn_max" id="maximize-btn"><span class="fa fa-window-maximize"></span></div>
+				<div class="btn" id="minimize-btn"><span class="fa fa-window-minimize"></span></div>
 			</div>
 			<ul class="topbar">
 				<li>{{ page.date | date: '%B %-d, %Y' }}</li>
@@ -93,7 +91,6 @@
 			</div>
 		</div>
     {% endif %}
-	<script src="{{ "/assets/js/001.js" | relative_url }}"></script>
-	<script src="{{ "/assets/js/002.js" | relative_url }}"></script>
+	<script src="{{ "/assets/js/window_buttons.js" | relative_url }}"></script>
 </body>
 </html>

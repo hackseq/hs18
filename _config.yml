@@ -15,6 +15,6 @@ sass:
   sass_dir: _sass
 
 # Markdown
-# markdown:    kramdown
-# highlighter: rouge
+markdown: kramdown
+highlighter: rouge
 # excerpt_separator: "\n\n"
