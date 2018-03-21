@@ -2,8 +2,8 @@ url: https://hackseq.github.io
 baseurl: /jekyll-theme-windows95
 
 # variables
-title: Jekyll Win95 Theme
-description: Jekyll theme inpired on the Win95 UI
+title: hackseq18
+description: genomics hackath0n
 
 # File management
 include: [".htaccess"]
