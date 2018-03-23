@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+/<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -50,7 +50,7 @@
 				{% unless page.tag %}
 					<ul>
 						{% for post in site.posts %}
-							<li><a href="{{  post.url | relative_url }}#content" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
+							<li><a href="{{  post.url | relative_url }}" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
 						{% endfor %}
 					</ul>
 				{% else %} <!-- If page is showing a tag -->
@@ -59,7 +59,7 @@
 			{% else %} <!-- If page is showing a post -->
 				<ul>
 					{% for post in site.posts %}
-					<li><a href="{{  post.url | relative_url }}#content" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
+					<li><a href="{{  post.url | relative_url }}" title="{{ post.title }}"><img src="{{ "/assets/img/file.ico" | relative_url }}" title="{{ post.title }}" />{{ post.title }}</a></li>
 					{% endfor %}
 				</ul>
 			{% endunless %}
@@ -67,9 +67,9 @@
 		{% endif %}
 		<div class="post_total">
 			{% if page.tag %}
-				<div class="left">{{ site.tags[page.tag] | size }} post(s)</div>
+				<div class="left">{{ site.tags[page.tag] | size }} file(s)</div>
 			{% else %}
-				<div class="left">{{ site.posts | size }} post(s)</div>
+				<div class="left">{{ site.posts | size }} file(s)</div>
 			{% endif %}
 			<div class="right">&nbsp;</div>
 		</div>

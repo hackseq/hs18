@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Team_Leaders.txt"
-tags: team_lead
+tags: team_lead application
 ---
 
 **100% DIY:** Share an idea. Lead a team. Hack a solution together
