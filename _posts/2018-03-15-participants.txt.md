@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "participants.txt"
-tags: participant application
+tags: participants apply
 ---
 
 A hackathon is a great place to meet like-minded individuals, learn, and collaborate to create something big.
@@ -9,7 +9,7 @@ A hackathon is a great place to meet like-minded individuals, learn, and collabo
 
 ## Participant Applications
 
-*Participant Applications are currently closed while we look for [Team Leaders]().*
+*Participant Applications are currently closed while we look for [Team Leaders](/2018/03/16/team-leads.txt.html).*
 
-If you'd like us to let you know when the Participant Applications are open, sign up for the [Mailing List]. (No spam, promise)
+We can let you know when the *Participant Applications* are open, just sign up for the [Mailing List]. (No spam, promise)
 
