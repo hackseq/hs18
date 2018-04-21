@@ -8,13 +8,12 @@ tags: team-leads apply
 
 ## Team Leader Applications
 
-### [Apply Here](https://goo.gl/forms/hVyZkEeXoPM3hD753)
-
-* Get on the [mailing list](https://www.hackseq.com/mail) and we'll let you know when they are (~ April) *
+<div></div>
+## ~~~> [Apply Here](https://goo.gl/forms/hVyZkEeXoPM3hD753) <~~~
+<div></div>
 
 If you've never lead a team before, don't worry we can help. The most important component is a good idea which you and your team can tackle over 72 hours.
 
 Take a look at the [hackseq16](http://hackseq.com/hs16) and [hackseq17](http://hackseq.com/hs16) projects to get an idea of the scope.
-
 
 If you've got any questions, shoot us an [email](mailto:hackseq@gmail.com).
