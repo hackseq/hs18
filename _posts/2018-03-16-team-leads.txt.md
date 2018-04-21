@@ -8,7 +8,8 @@ tags: team-leads apply
 
 ## Team Leader Applications
 
-* Team Lead applications haven't opened yet :\'( *
+### [Apply Here](https://goo.gl/forms/hVyZkEeXoPM3hD753)
+
 * Get on the [mailing list](https://www.hackseq.com/mail) and we'll let you know when they are (~ April) *
 
 If you've never lead a team before, don't worry we can help. The most important component is a good idea which you and your team can tackle over 72 hours.

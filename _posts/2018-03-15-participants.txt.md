@@ -10,5 +10,5 @@ A hackathon is a great place to meet like-minded individuals, learn, and collabo
 ## Participant Applications
 
 * Calm down, Participant Applications haven't opened yet. *
-* Get on the [mailing list](https://www.hackseq.com/mail) and we'll let you know when they are (~June) *
+* Get on the [mailing list](https://www.hackseq.com/mail) and we'll let you know when they are open (~June). *
 
