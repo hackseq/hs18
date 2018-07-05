@@ -9,10 +9,10 @@ tags: team-leads apply
 ## Team Leader Applications
 
 <div></div>
-## \~\~\~> [Apply to be a Team Leader](https://goo.gl/forms/hVyZkEeXoPM3hD753) <\~\~\~
+## \~\~\~> Applications are now closed (June 21st) :'( <\~\~\~
 <div></div>
 
-**Applications Close: June 21st**
+** Don't fret, sign up for the [mailing list](https://www.hackseq.com/mail) and we'll let you know when the Participant Applications are open.
 
 hackseq is a peer-led hackathon, which means *you* propose the projects. We'll help you recruit your team and get you the resources to turn your idea into a reality. This is a great oppertunity to collaborate and test out your ideas.
 
