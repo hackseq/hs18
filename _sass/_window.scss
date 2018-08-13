@@ -34,8 +34,8 @@
 }
 
 #content {
-	max-height: $contentHeight;
-	min-height: $contentHeight;
+	max-height: 800px;
+	min-height: 800px;
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 2vh;

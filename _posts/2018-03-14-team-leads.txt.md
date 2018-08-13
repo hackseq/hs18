@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Team_Leaders.txt"
+title: "Apply--Team_Lead.txt"
 tags: team-leads apply
 ---
 
@@ -9,10 +9,10 @@ tags: team-leads apply
 ## Team Leader Applications
 
 <div></div>
-## \~\~\~> Applications are now closed (June 21st) :'( <\~\~\~
+## \~\~\~> Applications for Team-Leads are now closed (June 21st) :'( <\~\~\~
 <div></div>
 
-** Don't fret, sign up for the [mailing list](https://www.hackseq.com/mail) and we'll let you know when the Participant Applications are open.
+** Don't fret, you can still sign up to [join a team.](https://hackseq.github.io/hs18/2018/03/15/participants.txt.html)
 
 hackseq is a peer-led hackathon, which means *you* propose the projects. We'll help you recruit your team and get you the resources to turn your idea into a reality. This is a great oppertunity to collaborate and test out your ideas.
 
@@ -27,4 +27,4 @@ If you've got any questions, shoot us an [email](mailto:hackseq@gmail.com).
 - [ChromeQC](https://github.com/bcgsc/chromeqc)
 - [R for Genomics Tutorials](https://hackseq.github.io/2017_project_5/)
 
-Explore more projects from [hackseq16](https://www.hackseq.com/projects16/) and [hackseq17](http://hackseq.com/hs17).
+Explore more projects from [hackseq16](https://www.hackseq.com/hackseq16/) and [hackseq17](http://hackseq.com/hackseq17).
