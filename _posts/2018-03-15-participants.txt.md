@@ -6,7 +6,7 @@ tags: participants apply
 
 ## [~~~ Apply Now ~~~](https://docs.google.com/forms/d/e/1FAIpQLSeiVKe182uyT0PlyZmZIcTVWP-s7uxUsGNxkSqWuG44Yfd-IQ/viewform?usp=sf_link)
 
-![Gameboy Flyer](/hackseq18_gb.png)
+![Gameboy Flyer](https://hackseq.github.io/hs18/hackseq18_gb.png)
 
 * [**Learn More about the hackseq18 Projects**](https://hackseq.github.io/hs18/2018/08/11/Projects2018.txt.html)
 
