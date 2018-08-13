@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "participants.txt"
+title: "Participants.txt"
 tags: participants apply
 ---
 
