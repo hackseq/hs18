@@ -4,10 +4,12 @@ title: "Apply--Participant.txt"
 tags: participants apply
 ---
 
+## [~~~ Apply Now ~~~](https://docs.google.com/forms/d/e/1FAIpQLSeiVKe182uyT0PlyZmZIcTVWP-s7uxUsGNxkSqWuG44Yfd-IQ/viewform?usp=sf_link)
+
 ![Gameboy Flyer](/hackseq18_gb.png)
 
-## [~~~ Apply Now ~~~](https://docs.google.com/forms/d/e/1FAIpQLSeiVKe182uyT0PlyZmZIcTVWP-s7uxUsGNxkSqWuG44Yfd-IQ/viewform?usp=sf_link)
-<br>
+* [**Learn More about the hackseq18 Projects**](https://hackseq.github.io/hs18/2018/08/11/Projects2018.txt.html)
+
 **hackseq** is a greatplace to meet like-minded individuals, learn and collaborate to create something big.
 
 hackseq is a 100% DIY hackathon, which means your peers have proposed projects, you apply to join a team and then we all meet together for a 72 hour coding-fest to turn those projects into a reality.
