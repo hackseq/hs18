@@ -4,7 +4,7 @@ title: "Apply--Participant.txt"
 tags: participants apply
 ---
 
-## [~~~ Apply Now ~~~](https://docs.google.com/forms/d/e/1FAIpQLSeiVKe182uyT0PlyZmZIcTVWP-s7uxUsGNxkSqWuG44Yfd-IQ/viewform?usp=sf_link)
+## ~~~ Participant Applications have closed. ~~~
 
 ![Gameboy Flyer](https://hackseq.github.io/hs18/hackseq18_gb.png)
 
