@@ -4,7 +4,7 @@ title: "BioHaiku_Contest.txt"
 tags:
 ---
 
-![BioHaiku](https://static1.squarespace.com/static/56e4a3eb01dbae3492a238b0/t/5bb7c3a1f4e1fce77bbc900f/1538769838862/BioHaiku.png)
+![BioHaiku](https://static1.squarespace.com/static/56e4a3eb01dbae3492a238b0/t/5bb7c3a1f4e1fce77bbc900f/1538769842663/BioHaiku.png?format=700w)
 
 <div></div>
 
