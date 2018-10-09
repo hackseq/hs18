@@ -8,4 +8,4 @@ tags:
 
 <div></div>
 
-Write a biology / bioinformatics themed haiku to enter for a chance to win a DNA Ancestry Testing Kit* (or choice of bookstore giftcard). Contest runs until Sunday October 16th at Noon PST. Winners will be announced at hackseq18 closing stream.
+Write a biology / bioinformatics themed haiku to enter for a chance to win a DNA Ancestry Testing Kit* (or choice of bookstore giftcard). Contest runs until Sunday October 14th at Noon PST. Winners will be announced at hackseq18 closing stream.
