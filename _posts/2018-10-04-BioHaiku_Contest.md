@@ -10,8 +10,8 @@ tags:
 **WINNER**<br>
 
 Not ravioli,<br>
-Not spaghetti code,<br>
-I said FASTA not pasta<br>
+Not spaghetti code, I said<br>
+FASTA not pasta<br>
 - [David G.](https://twitter.com/divadguo)
 <div></div>
 
