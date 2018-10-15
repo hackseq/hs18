@@ -18,8 +18,8 @@ I said FASTA not pasta<br>
 **Runner-up**<br>
 
 for (pos in sequence) {<br>
-  if (pos matches reference) {<br>
-   return ("pos not snp") } }<br>
+&nbsp;&nbsp;if (pos matches reference) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;return ("pos not snp") } }<br>
 - Tamar A
 <div></div>
 
