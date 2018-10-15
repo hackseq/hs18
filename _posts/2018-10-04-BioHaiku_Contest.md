@@ -33,10 +33,22 @@ We assemble them.<br>
 
 **ENTRIES**<br>
 
-Issues with package,<br>
-DM developer on Slack,<br>
-Documentation.<br>
-- [Veena G.](https://twitter.com/maxwells_daemon)
+Bio programmers <br>
+All gathered in the same place <br>
+It'll be a BLAST <br>
+- [Mariam A.](https://twitter.com/mariamearab)
+<div></div>
+
+bio and programming <br>
+are all about understanding <br>
+the source code <br>
+- Figali T.
+<div></div>
+
+Imaging a blot <br>
+Not spots but smears develop <br>
+Mournful walk home. Rain. <br>
+- [Lisa B.](https://twitter.com/LisaBulaeva)
 <div></div>
 
 KRAS G-G-T<br>
@@ -51,16 +63,28 @@ What have I done wrong?<br>
 - [Ogan M.](https://twitter.com/OganM)
 <div></div>
 
+Dancing like twinkles,<br>
+Lines of bright code flickering,<br>
+Running.... nowhere. Black. <br>
+- Kat R.
+<div></div>
+
 Chemotherapy,<br>
 wide-spread cellular damage,<br>
 CAR-T kills cancer.<br>
 - [Tara F.](https://twitter.com/DrTFern)
-<div></div>https://www.youtube.com/watch?v=xNZRBpEhnY4
+<div></div>
 
 Swim beloved bacteria<br>
 Few threads of tokens<br>
 Is what you are.<br>
 - [Jasmeet](https://twitter.com/Jasmeet98352646)
+<div></div>
+
+Issues with package,<br>
+DM developer on Slack,<br>
+Documentation.<br>
+- [Veena G.](https://twitter.com/maxwells_daemon)
 <div></div>
 
 How does one do this?<br>
@@ -93,28 +117,22 @@ A common purpose <br>
 - Diana E.
 <div></div>
 
-bio and programming <br>
-are all about understanding <br>
-the source code <br>
-- Figali T.
-<div></div>
-
 Genes in a circle, <br>
 View organism's genome, <br>
 Find regions of worth. <br>
 - [Veena G.](https://twitter.com/maxwells_daemon)
 <div></div>
 
-Imaging a blot <br>
-Not spots but smears develop <br>
-Mournful walk home. Rain. <br>
-- [Lisa B.](https://twitter.com/LisaBulaeva)
-<div></div>
-
 Words flow on console <br>
 Energies combine in a <br>
 Synergy of minds <br>
 - Diana E.
+<div></div>
+
+Was master of none <br>
+hacked DNA for three days <br>
+Now master of 01 <br>
+- Rachel M.
 <div></div>
 
 5 7 5, right? <br>
@@ -157,12 +175,6 @@ prophase metaphase <br>
 anaphase telophase this <br>
 is called mitosis <br>
 - Kevin L.
-<div></div>
-
-Bio programmers <br>
-All gathered in the same place <br>
-It'll be a BLAST <br>
-- [Mariam A.](https://twitter.com/mariamearab)
 <div></div>
 
 How does death approach? <br>
@@ -213,18 +225,6 @@ Her eyes grew wider<br>
 A biologist was born<br>
 "Can we take it home?"<br>
 - [Will B.](https://twitter.com/willblev)
-<div></div>
-
-Dancing like twinkles,<br>
-Lines of bright code flickering,<br>
-Running.... nowhere. Black. <br>
-- Kat R.
-<div></div>
-
-Was master of none <br>
-hacked DNA for three days <br>
-Now master of 01 <br>
-- Rachel M.
 <div></div>
 
 The Tech we make, <br>
